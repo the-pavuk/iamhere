@@ -1,0 +1,156 @@
+.register {
+  text-align: center;
+  color: #2a90da;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #a44d4d;
+  flex-direction:  row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 1px;
+  font-family: "Baloo Bhai 2", Arial;
+  font-size: 1.714rem;
+  font-weight: 400;
+  line-height: 39px;
+  display: flex;
+}
+
+.rectangle {
+  height: 80%;
+  background-color: #271f1f;
+  border-radius: 17px;
+  flex-direction: column;
+  flex-basis: 31%;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 2px;
+  padding-left: 6px;
+  padding-right: 7px;
+  display: flex;
+}
+
+.welcome {
+  color: #a44d4d;
+  align-self: center;
+  margin-top: 1px;
+  margin-bottom: 101px;
+  margin-left: 1px;
+  font-size: 4.571rem;
+  font-weight: 800;
+  line-height: 104px;
+}
+
+.email {
+  color: #a44d4d;
+  color: #544f4f;
+  color: #a44d4d;
+  width: 90%;
+  background-color: #362c2c;
+  border: none;
+  border-radius: 17px;
+  flex-direction: column;
+  flex-basis: 12%;
+  justify-content: space-around;
+  align-self: center;
+  align-items: flex-end;
+  margin-top: 12px;
+  margin-left: 2px;
+  padding-top: 2px;
+  font-family: "Baloo Bhai 2", Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  display: flex;
+}
+
+.nickname {
+  color: #a44d4d;
+  color: #a44d4d;
+  color: #a44d4d;
+  width: 90%;
+  background-color: #362c2c;
+  border: none;
+  border-radius: 17px;
+  flex-direction: column;
+  flex-basis: 12%;
+  justify-content: space-around;
+  align-self: center;
+  align-items: flex-end;
+  margin-left: 2px;
+  padding-top: 2px;
+  font-family: "Baloo Bhai 2", Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  display: flex;
+}
+
+.password {
+  color: #a44d4d;
+  color: #544f4f;
+  color: #a44d4d;
+  width: 90%;
+  background-color: #362c2c;
+  border: none;
+  border-radius: 17px;
+  flex-direction: column;
+  flex-basis: 12%;
+  justify-content: center;
+  align-self: center;
+  align-items: flex-end;
+  margin-bottom: 3px;
+  margin-left: 2px;
+  padding-top: 1px;
+  font-family: "Baloo Bhai 2", Arial;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 39px;
+  display: flex;
+}
+
+.already-have-an-account {
+  align-self: center;
+  margin-bottom: 9px;
+  margin-left: 1px;
+  text-decoration: underline;
+}
+
+.rectangle-4 {
+  color: #000;
+  text-align: center;
+  width: 90%;
+  background-color: #a44d4d;
+  border: none;
+  border-radius: 17px;
+  flex-direction: row;
+  flex-basis: 12%;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-top: 1px;
+  padding-right: 1px;
+  font-family: "Baloo Bhai 2", Arial;
+  font-size: 2.286rem;
+  font-weight: 700;
+  line-height: 52px;
+  display: flex;
+}
+
+.sign-up {
+  align-self: center;
+  margin-top: 1px;
+}
+
+.our-contacts {
+  align-self: center;
+  margin-bottom: 8px;
+  margin-left: 1px;
+  text-decoration: underline;
+}
