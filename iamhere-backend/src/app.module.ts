@@ -4,9 +4,10 @@ import { AppService } from './app.service';
 import { User } from 'entities/User';
 import { DataSource } from 'typeorm';
 import { UsersModule } from './users.module';
-import { PostsService } from './post/posts.service';
 import { Posts } from './post/posts.entity';
 import { PostModule } from './post/post.module';
+import { FollowerModule } from './follower/follower.module';
+import { Follower } from './follower/follower.entity';
 
 @Module({
   imports: [
@@ -17,9 +18,9 @@ import { PostModule } from './post/post.module';
       username: 'root',
       password: 'root',
       database: 'iamhere',
-      entities: [User, Posts],
-      synchronize: true,
-    }), UsersModule, PostModule,
+      entities: [User, Posts, Follower],
+      synchronize: true, // если у ЭТОЙ ХУЙНИ будет релиз, то убрать
+    }), UsersModule, PostModule, FollowerModule
   ],
   providers: [AppService],
   exports: [AppModule]

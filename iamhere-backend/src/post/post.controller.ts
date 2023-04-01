@@ -3,7 +3,7 @@ import { Posts } from './posts.entity';
 import { PostsService } from './posts.service';
 
 
-@Controller('/post')
+@Controller('api/post/')
 export class PostController {
   constructor(private readonly postService: PostsService) {}
 

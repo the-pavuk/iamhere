@@ -2,7 +2,7 @@ import { Body, Controller, Get, Query, Post, HttpCode } from '@nestjs/common';
 import { User } from 'entities/User';
 import { UsersService } from './users.service';
 
-@Controller('/')
+@Controller('/api/')
 export class AppController {
   constructor(private readonly usersService: UsersService) {}
 
