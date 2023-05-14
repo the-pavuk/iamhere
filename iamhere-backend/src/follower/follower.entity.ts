@@ -1,9 +1,10 @@
 import { User } from 'entities/User';
-import { Entity, JoinColumn, ManyToOne, PrimaryColumn } from 'typeorm';
+import { Entity, JoinColumn, ManyToOne, PrimaryColumn, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class Follower{
-    @PrimaryColumn()
+    @PrimaryGeneratedColumn()
+    follow_id: number;
     @ManyToOne(() => User, user => user.id)
     @JoinColumn({name: "follower_id"})
     follower_id: number;

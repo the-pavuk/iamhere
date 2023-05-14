@@ -21,16 +21,16 @@ export class FollowerService {
     try {
       isValid = await this.jwtService.verify(follower.access_token);
     } catch{
-      throw new BadRequestException();
+      throw new UnauthorizedException();
     }
 
     if(!isValid) {
-        throw new UnauthorizedException();
+      throw new UnauthorizedException();
     } else{
         const decodedJwt = this.jwtService.verify(follower.access_token);
         follower.follower_id = decodedJwt.id;
         await this.postsRepository.insert(follower).catch((e =>{
-            throw new BadRequestException("You are already followed on this user!");
+            throw new BadRequestException("Bad request:( stderr: " + e);
         }))
         return {message: "Successfully followed!", code: 201}
     }

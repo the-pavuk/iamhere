@@ -16,7 +16,7 @@ import { Follower } from './follower/follower.entity';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'root',
+      password: 'rooot',
       database: 'iamhere',
       entities: [User, Posts, Follower],
       synchronize: true, // если у ЭТОЙ ХУЙНИ будет релиз, то убрать
